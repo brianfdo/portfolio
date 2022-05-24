@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import './index.scss'
 import Elmo from '../../../assets/images/elmo.png'
@@ -16,12 +16,12 @@ const Sidebar = () => (
             <HashLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </HashLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/#about">
+            <HashLink exact="true" activeclassname="active" className="about-link" to="/#about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-            </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/#contact">
+            </HashLink>
+            <HashLink exact="true" activeclassname="active" className="contact-link" to="/#contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-            </NavLink>
+            </HashLink>
 
         </nav>
     </div>

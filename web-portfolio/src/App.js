@@ -2,7 +2,7 @@ import './App.scss';
 // import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout';
 import Aos from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import { useEffect } from "react"; 
 
 
