@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818;
-    width: 160px;
+    width: 25%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -9,12 +9,12 @@
 
     .logo {
         display: block;
-        padding: 0px 0;
+        padding: 8px 0;
         
         img {
             display: block;
             margin: 8px auto;
-            width: 24px;
+            width: 145px;
             height: auto;
         }
     
@@ -26,7 +26,7 @@ nav {
     display: block;
     text-align: center;
     position: absolute;
-    height: 210px;
+    height: 2100px;
     top: 50%;
     margin-top: -12;
 }
