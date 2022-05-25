@@ -2,14 +2,17 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import './index.scss'
 import Elmo from '../../../assets/images/elmo.png'
+import "aos/dist/aos.css";
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faXbox } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
-    <div className='nav-bar'>
+    <div className='nav-bar' data-aos="fade-right"
+    data-aos-easing="ease-in-out"
+    data-aos_duration="10000">
         <Link className="logo" to="/">
-            <img src={Elmo} alt="logo"/>
+            {/* <img src={Elmo} alt="logo"/> */}
             {/* <img src={LogoSubtitle} alt="fern"/> */}
         </Link>
         <nav>
@@ -33,8 +36,13 @@ const Sidebar = () => (
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brianfdo">
+                <a target="_blank" rel="noreferrer" href="https://www.github.com/brianfdo">
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel="noreferrer" href="http://live.xbox.com/Profile?Gamertag=KingNinja333">
+                    <FontAwesomeIcon icon={faXbox} color="#4d4d4e"/>
                 </a>
             </li>
         </ul>
