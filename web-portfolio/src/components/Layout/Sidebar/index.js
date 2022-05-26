@@ -12,7 +12,7 @@ const Sidebar = () => (
     data-aos-easing="ease-in-out"
     data-aos_duration="10000">
         <Link className="logo" to="/">
-            {/* <img src={Elmo} alt="logo"/> */}
+            <img src={Elmo} alt="logo"/>
             {/* <img src={LogoSubtitle} alt="fern"/> */}
         </Link>
         <nav>

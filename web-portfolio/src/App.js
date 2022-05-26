@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Aos from "aos";
 // import "aos/dist/aos.css";
 import { useEffect } from "react"; 
+import Home from './components/Home';
 
 
 function App() {
@@ -16,16 +17,17 @@ function App() {
     });
   });
   return (
-    <>
+    <div>
     {/* <Routes>
       <Route path="/" element={<Layout />}/>
     </Routes> */}
     <div data-aos="fade-right"
          data-aos-easing="ease-in-out"
          data-aos_duration="10000">
-      <Layout data-aos="fade-right"/>
+      <Layout/>
     </div>
-    </>
+      <Home/>
+    </div>
 
   );
 }

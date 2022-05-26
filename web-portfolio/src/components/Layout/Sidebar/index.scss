@@ -1,25 +1,26 @@
 .nav-bar {
     background: #181818;
-    width: 200px;
+    width: 150px;
     min-height: 100vh;
     height: 100%;
     position: fixed;
-    top: 0;
+    top: 0px;
     z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 
-    // .logo {
-    //     display: block;
-    //     padding: 40px 0;
+    .logo {
+        display: block;
+        padding: 40px 0;
         
-    //     img {
-    //         display: block;
-    //         margin: 8px auto;
-    //         width: 145px;
-    //         height: auto;
-    //     }
+        img {
+            display: block;
+            margin: 8px auto;
+            width: 145px;
+            height: auto;
+        }
     
-    // }
+    }
 
 
 
@@ -60,7 +61,7 @@
 
             &:after {
                 content: '';
-                font-size: 40px;
+                font-size: 30px;
                 letter-spacing: 4px;
                 position: relative;
                 bottom: 40px;
@@ -68,7 +69,7 @@
                 width: 100%;
                 text-align: center;
                 opacity: 0;
-                transition: all 0.3 ease-out;
+                transition: all 0.5s ease-out;
         
             }
             
