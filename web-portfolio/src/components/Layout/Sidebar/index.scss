@@ -3,9 +3,12 @@
     width: 150px;
     min-height: 100vh;
     height: 100%;
-    position: fixed;
-    top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
     z-index: 3;
+    display: -webkit-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 
@@ -48,7 +51,7 @@
             }
 
             &:hover {
-                color: cyan;
+                color: #ffffff;
 
                 svg {
                     opacity: 0;

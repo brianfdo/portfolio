@@ -1,12 +1,13 @@
 .home-page {
 
     .text-zone {
-        position: absolute;
+        position: relative;
         left: 10%;
-        top: 45%;
-        transform: translateY(-50%);
+        top: 20%;
+        min-width: 10;
+        transform: translateY(-350%);
         width: 100%;
-        max-height: 80%;
+        max-height: 70%;
         
 
         h1 {
@@ -43,6 +44,12 @@
             float: left;
             animation: fadeIn 1s 1.8s backwards;
             white-space: nowrap;
+
+            &:hover {
+                background: #ffffff;
+                color: rgb(200, 126, 7);
+
+            }
 
         }
 }

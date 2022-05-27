@@ -8,7 +8,8 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: rgb(255, 255, 255);
   background: rgb(200, 126, 7);
-  overflow: hidden;
+  /* overflow-x: hidden;
+  overflow-y: visible; */
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
