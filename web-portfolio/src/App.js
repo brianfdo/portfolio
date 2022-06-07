@@ -5,7 +5,8 @@ import Aos from "aos";
 // import "aos/dist/aos.css";
 import { useEffect } from "react"; 
 import Home from './components/Home';
-
+import Sidebar from './components/Sidebar';
+import StickyBox from 'react-sticky-box'
 
 function App() {
   useEffect(() => {
@@ -17,15 +18,18 @@ function App() {
     });
   });
   return (
-    <div>
+    <div className='row'>
     {/* <Routes>
       <Route path="/" element={<Layout />}/>
     </Routes> */}
-    <div data-aos="fade-right"
-         data-aos-easing="ease-in-out"
-         data-aos_duration="10000">
-      <Layout/>
-    </div>
+    <StickyBox offsetTop={0} offsetBottom={0}>
+      <div data-aos="fade-right"
+          data-aos-easing="ease-in-out"
+          data-aos_duration="10000">
+        <Layout/>
+      </div>
+    </StickyBox>
+    
       <Home/>
     </div>
 

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import './index.scss'
-import Elmo from '../../../assets/images/elmo.png'
+// import Elmo from '../../../assets/images/elmo.png'
 import "aos/dist/aos.css";
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
