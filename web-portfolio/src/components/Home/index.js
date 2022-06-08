@@ -10,7 +10,7 @@ const Home = () => {
             <div className="text-zone">
                 <h1>Hello, <br /> I'm Brian Fernando!</h1>
                 <h2>Student at Purdue University</h2>
-                <HashLink to="#contact" className="flat-button">CONTACT ME</HashLink>
+                <HashLink smooth to="/#top" className="flat-button">CONTACT ME</HashLink>
             </div>
         </div>
     );
