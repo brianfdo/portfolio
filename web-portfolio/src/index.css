@@ -5,11 +5,13 @@ html {
 
 body {
   margin: 0;
+  min-height: 480px;
+  min-width: 340px;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: rgb(255, 255, 255);
   background: rgb(200, 126, 7);
-  /* overflow-x: hidden;
-  overflow-y: visible; */
+  overflow-x: hidden;
+  overflow-y: auto;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -16,7 +16,7 @@ const Sidebar = () => (
             {/* <img src={LogoSubtitle} alt="fern"/> */}
         </Link>
         <nav>
-            <HashLink exact="true" activeclassname="active" to="/">
+            <HashLink exact="true" activeclassname="active" smooth to="/#top">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </HashLink>
             <HashLink exact="true" activeclassname="active" className="about-link" to="/#about">

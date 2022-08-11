@@ -5,6 +5,7 @@ import Aos from "aos";
 // import "aos/dist/aos.css";
 import { useEffect } from "react"; 
 import Home from './components/Home';
+import Intro from './components/Intro'
 import Sidebar from './components/Sidebar';
 import StickyBox from 'react-sticky-box'
 
@@ -26,11 +27,17 @@ function App() {
       <div data-aos="fade-right"
           data-aos-easing="ease-in-out"
           data-aos_duration="10000">
-        <Layout/>
+        <Sidebar/>
       </div>
     </StickyBox>
     
       <Home/>
+      <Intro/>
+      {/* <Intro/>
+      <Intro/>
+      <Intro/>
+      <Intro/> */}
+      {/* <Home/> */}
     </div>
 
   );
