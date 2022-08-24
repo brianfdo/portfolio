@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Intro from './components/Intro'
 import Sidebar from './components/Sidebar';
 import StickyBox from 'react-sticky-box'
+import TechGrid from './components/TechGrid';
 
 function App() {
   useEffect(() => {
@@ -33,11 +34,7 @@ function App() {
     
       <Home/>
       <Intro/>
-      {/* <Intro/>
-      <Intro/>
-      <Intro/>
-      <Intro/> */}
-      {/* <Home/> */}
+      <TechGrid/>
     </div>
 
   );

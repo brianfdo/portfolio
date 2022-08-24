@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link"
 import './index.scss'
-import Intro from '../Intro'
 
 const Home = () => {
 
@@ -13,7 +11,6 @@ const Home = () => {
                 <h2>Student at Purdue University</h2>
                 <a className="flat-button" href='mailto:brianfdo3@gmail.com'>CONTACT ME</a>
             </div>
-            {/* <Intro/> */}
         </div>
         
     );
