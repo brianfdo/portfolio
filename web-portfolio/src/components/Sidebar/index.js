@@ -5,7 +5,7 @@ import './index.scss'
 import "aos/dist/aos.css";
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faXbox } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
     <div className='nav-bar' data-aos="fade-right"
@@ -19,12 +19,12 @@ const Sidebar = () => (
             <HashLink exact="true" activeclassname="active" smooth to="/#top">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </HashLink>
-            <HashLink exact="true" activeclassname="active" className="about-link" to="/#about">
-                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-            </HashLink>
-            <HashLink exact="true" activeclassname="active" className="contact-link" to="/#contact">
+            <Link target="_blank" className="about-link" to="/Brian_Fernando_Resume_2022_PDF.pdf">
+                <FontAwesomeIcon icon={faDownload} color="#4d4d4e" />
+            </Link>
+            <a exact="true" activeclassname="active" className="contact-link" href="mailto:brianfdo3@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-            </HashLink>
+            </a>
 
         </nav>
 
