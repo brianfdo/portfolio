@@ -8,11 +8,12 @@
   
   .tech {
     .text-zone {
-        position: relative;
-        left: 30%;
+        position: sticky;
+        float: left;
+        left: 40%;
         top: 10%;
         min-width: 10;
-        transform: translateY(-2500%);
+        transform: translate(20%,-2500%);
         animation: fadeIn 1s 2.5s backwards;
         width: 100%;
         
@@ -30,6 +31,7 @@
 }
   /* Float four columns side by side */
   .column {
+    position: relative;
     float: left;
     width: 20%;
     padding: 0 10px;
@@ -55,6 +57,7 @@
   .grid {
       transform: translateY(-30%);
       margin-bottom: 10%;
+      display: static;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -72,10 +75,72 @@
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+    }
+    .tech {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .tech {
+        width: 1200px;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .tech {
+        width: 1600px;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .tech {
+        width: 1800px;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+
+  @media (min-width: 1650px) {
+    .tech {
+        width: 2100px;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1800px) {
+    .tech {
+        width: 2400px;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1900px) {
+    .tech {
+        width: 2600px;
+        display: block;
+        margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 2000px) {
+    .tech {
+        width: 3000px;
+        display: block;
+        margin-bottom: 20px;
     }
   }
